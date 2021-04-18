@@ -3,8 +3,7 @@ import React from 'react';
 import { ImageBackground, StyleSheet, Image, Text, View, TextInput, Button } from 'react-native';
 import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading';
-import youlose from './youlose';
-import youwin from './youwin';
+
 
 
 const fetchFonts = () => {
@@ -19,7 +18,7 @@ export default function ({ history }) {
     let money = 100
     const [moneyuserbet, moneybet] = useState(0);
     let moneyuserbet1 = parseInt(moneyuserbet)
-    
+
     money -= moneyuserbet1
     
     const [fontLoaded, setFontLoaded] = useState(false);

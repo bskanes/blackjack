@@ -16,8 +16,8 @@ export default class App extends React.Component {
       <NativeRouter>
         <View>
           <Switch>
-            <Route exact path="/" component={home} />
-            <Route exact path="/game" component={game} />
+            <Route exact path= "/" component={home} />
+            <Route exact path= "/game" component={game} />
           </Switch>
         </View>
       </NativeRouter>
